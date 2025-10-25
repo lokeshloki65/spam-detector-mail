@@ -1,30 +1,38 @@
-# Aegis spam detector
+ spam detector- mail
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This project utilizes a modern, full-stack architecture:
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/lokeshm152005s-projects/v0-aegis-spam-detector)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/QdGpdoAQkkG)
+* **Frontend:** React, Tailwind CSS, Framer Motion (for animations)
+* **Backend:** Python (FastAPI)
+* **Database & Auth:** Firebase (Cloud Firestore & Firebase Authentication)
+* **Machine Learning:** Scikit-learn / Hugging Face Transformers
 
-## Overview
+## How to Run Locally
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+1.  **Clone the repository:**
+    ```sh
+    git clone [your-repository-url]
+    cd aegis-spam-detector
+    ```
 
-## Deployment
+2.  **Install Frontend Dependencies:**
+    ```sh
+    # Navigate to the frontend directory
+    cd frontend
+    npm install
+    ```
 
-Your project is live at:
+3.  **Install Backend Dependencies:**
+    ```sh
+    # Navigate to the backend directory
+    cd backend
+    pip install -r requirements.txt
+    ```
 
-**[https://vercel.com/lokeshm152005s-projects/v0-aegis-spam-detector](https://vercel.com/lokeshm152005s-projects/v0-aegis-spam-detector)**
+4.  **Set up Environment Variables:**
+    * Create a `.env` file in both the `frontend` and `backend` directories.
+    * Add your Firebase project configuration keys and any other required API keys.
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/QdGpdoAQkkG](https://v0.app/chat/projects/QdGpdoAQkkG)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+5.  **Run the Application:**
+    * **Frontend:** `npm run dev`
+    * **Backend:** `uvicorn main:app --reload`
