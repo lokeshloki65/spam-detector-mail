@@ -34,5 +34,5 @@ This project utilizes a modern, full-stack architecture:
     * Add your Firebase project configuration keys and any other required API keys.
 
 5.  **Run the Application:**
-    * **Frontend:** `npm run dev`
+    * **Frontend:** `npm run dev` 
     * **Backend:** `uvicorn main:app --reload` 
