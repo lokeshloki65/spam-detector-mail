@@ -35,4 +35,4 @@ This project utilizes a modern, full-stack architecture:
 
 5.  **Run the Application:**
     * **Frontend:** `npm run dev`
-    * **Backend:** `uvicorn main:app --reload`
+    * **Backend:** `uvicorn main:app --reload` 
