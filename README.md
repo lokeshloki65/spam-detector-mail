@@ -22,7 +22,7 @@ This project utilizes a modern, full-stack architecture:
     npm install
     ```
 
-3.  **Install Backend Dependencies:**
+3.  **Install Backend Dependencies:** 
     ```sh
     # Navigate to the backend directory
     cd backend
