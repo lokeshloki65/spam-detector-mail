@@ -10,7 +10,7 @@ import Header from "@/components/header"
 export default function Home() {
   const [emailContent, setEmailContent] = useState("")
   const [isAnalyzing, setIsAnalyzing] = useState(false)
-  const [results, setResults] = useState(null)
+  const [results, setResults] = useState(null)     
 
   const handleAnalyze = async () => {
     if (!emailContent.trim()) return
@@ -104,3 +104,4 @@ export default function Home() {
     </main>
   )
 }
+ 
