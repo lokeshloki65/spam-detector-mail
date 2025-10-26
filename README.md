@@ -10,7 +10,7 @@ This project utilizes a modern, full-stack architecture:
 ## How to Run Locally
 
 1.  **Clone the repository:**
-    ```sh
+    ```sh 
     git clone [your-repository-url]
     cd aegis-spam-detector
     ```
