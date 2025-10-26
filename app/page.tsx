@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
 import ResultsDisplay from "@/components/results-display" 
-import Header from "@/components/header"
+import Header from "@/components/header" 
 
 export default function Home() {
   const [emailContent, setEmailContent] = useState("")
